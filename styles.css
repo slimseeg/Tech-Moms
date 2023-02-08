@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+nav {
+    border: 3px solid blueviolet;
+}
+
+main {
+    border: 3px solid salmon;
+}
+
+footer {
+    border: 3px solid seagreen;
+}
+
+.flex-parent {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
