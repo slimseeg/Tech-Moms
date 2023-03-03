@@ -1,23 +1,133 @@
+/* I want to change opacity of the image w/out effecting any other elements*/
+html {
+    height: 100%;
+
+}
+
+.background-style {
+    background: url("assets/Background_pic/Pink_blossomson_a_tree_with_mountain_background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-
-nav {
-    border: 3px solid blueviolet;
-}
-
-main {
-    border: 3px solid salmon;
-}
-
-footer {
-    border: 3px solid seagreen;
-}
-
-.flex-parent {
     display: flex;
-    gap: 12px;
+    flex-direction: column;
+    font-family: 'Satisfy', sans-serif;
+    height: 100%;
+    gap: 10px;
+}
+
+.paragraph1 {
+    font-size: xx-large;
+    font-family: 'Satisfy', sans-serif;
+}
+
+.paragraph2 {
+    font-size: xx-large;
+    font-family: 'Satisfy', sans-serif;
+}
+
+.paragraph3 {
+    font-size: xx-large;
+    font-family: 'Satisfy' sans-serif;
+}
+
+/* I want to create beveled corners and change icon color*/
+.header-container {
+    display: flex;
     justify-content: center;
+    align-items: baseline;
+    font-size: 30px;
+    height: 100px;
+    background-color: #829460;
+    border: 5px solid blanchedalmond;
+    border-style: double;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.nav-container {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+}
+
+/* Need to make space between sidebar containers*/
+.sidebar-container {
+    border-radius: 15px;
+    background-color: #F96666;
+    width: 30%;
+    justify-self: right;
+    padding-left: 24px;
+    height: 100%;
+    border: 5px solid blanchedalmond;
+    border-style: double;
+    opacity: 0.9;
+
+}
+
+sidebar-container2 {
+    background-color: #F96666;
+    width: 30%;
+    justify-self: right;
+    padding-left: 24px;
+    height: 100%;
+}
+
+sidebar-container3 {
+    background-color: #F96666;
+    width: 30%;
+    justify-self: right;
+    padding-left: 24px;
+    height: 100%;
+}
+
+.sidebar-title {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.sidebar-subtitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Need to change icon colors to black and add hover effect*/
+.icon-container {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 30px;
+    height: 100px;
+    background-color: #829460;
+    border: 5px solid blanchedalmond;
+    border-style: double;
+    border-radius: 15px;
+    opacity: 0.9;
+
 }
