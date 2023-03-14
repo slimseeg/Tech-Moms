@@ -121,7 +121,7 @@ a {
 
 a:hover {
     color: #E3E3E3;
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: all .2s ease-in-out;
 }
 
@@ -209,11 +209,11 @@ a:hover {
 }
 
 .image-two {
-    background-image: url("assets/My_Pics/cabin_trip.jpg");
+    background-image: url("assets/My_Pics/gratitute_quote.jfif");
 }
 
 .image-three {
-    background-image: url("assets/My_Pics/hot_moms_and_dads.jpg");
+    background-image: url("assets/My_Pics/its_never_too_late.jfif");
 }
 
 .image-four {
@@ -225,19 +225,19 @@ a:hover {
 }
 
 .image-six {
-    background-image: url("assets/My_Pics/mazies_graduation.jpg");
+    background-image: url("assets/My_Pics/cabin_trip.jpg");
 }
 
 .image-seven {
-    background-image: url("assets/My_Pics/Star_Wars_Cake.jpg");
+    background-image: url("assets/My_Pics/anchor_blanket.jpg");
 }
 
 .image-eight {
-    background-image: url("assets/My_Pics/old_jeans_denim_blankets_resized.jpg");
+    background-image: url("assets/My_Pics/anchor_blanket.jpg");
 }
 
 .image-nine {
-    background-image: url("");
+    background-image: url("assets/My_Pics/old_jeans_blankets.jpg");
 }
 
 
